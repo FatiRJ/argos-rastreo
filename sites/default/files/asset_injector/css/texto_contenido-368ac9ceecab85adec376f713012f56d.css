@@ -1,0 +1,11 @@
+.textocontenido {
+	font-family: 'Asap',serif;
+	text-align: justify;
+	/*font-size: 1.8vh;*/
+	/*font-size: large;*/
+	font-size: medium;
+	align-items: center;
+	margin-right: 15px;
+	line-height: 1em;
+	display: flex;
+}

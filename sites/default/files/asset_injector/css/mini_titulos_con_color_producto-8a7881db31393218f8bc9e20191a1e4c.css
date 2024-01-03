@@ -1,0 +1,16 @@
+.minitituloscolor {
+	font-family: 'Asap';
+	color: #374181;
+	font-weight: bold;
+	text-align: center;
+	font-size: large;
+	/*font-size: 2vh;*/
+	
+	line-height: 1em;
+	margin-right: 15px;
+}
+
+
+.minitituloscolor:hover {
+  color: #337ab7;
+}

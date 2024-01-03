@@ -1,0 +1,17 @@
+.textocontenidocentrado {
+	font-family: 'Asap',serif;
+	/*font-size: medium;*/
+	font-size: small;
+	margin-right: 15px;
+	line-height: 1.5em;
+}
+
+@media (max-width: 655px) {
+.textocontenidocentrado {
+	font-family: 'Asap',serif;
+	/*font-size: medium;*/
+	font-size: x-small;
+	margin-right: 15px;
+	line-height: 1.5em;
+}
+}

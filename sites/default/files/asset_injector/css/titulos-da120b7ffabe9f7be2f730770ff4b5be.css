@@ -1,0 +1,16 @@
+.titulos {
+	
+	font-family: 'Asap';
+	font-weight: bold;
+	text-align: center;
+	/*font-size: 2vw;*/
+	/*font-size: x-large;*/
+	/*font-size: 95%;*/
+	font-size: large;
+	line-height: 1em;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	width: 100%;
+	box-sizing: border-box;
+	/*background-color: red ;*/
+}

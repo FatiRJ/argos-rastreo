@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+
+.tituloprodu1 {
+	font-family: 'Asap', sans-serif;
+	font-weight: bold;
+	color: #354587;
+	text-align: center;
+	font-size:4vw;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+}

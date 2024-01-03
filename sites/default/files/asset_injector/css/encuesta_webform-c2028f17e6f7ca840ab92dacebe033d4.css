@@ -1,0 +1,335 @@
+ul.thumbnails.image_picker_selector {
+	display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-quiz {
+	display: flex;
+	width: 100%;
+}
+
+.element-quiz {
+	/*width: 80%;*/
+	width: 100%;
+	font-size: large;
+	background-color: white; /*new */
+}
+
+.label-quiz {
+	width: auto;
+  font-size: large;
+  margin-right: 5px;
+  padding-top: 5px;
+}
+
+
+
+
+/*		###########################################################		*/
+
+.information-wrapper {
+	display: flex;
+	width: 100%;
+}
+
+.information-element{
+	width: 70%;
+	font-size: large;
+	background-color: white; 
+}
+
+.information-label {
+	width: 30%;
+  font-size: large;
+  margin-right: 5px;
+  padding-top: 5px;
+}
+
+
+/*		############################################################		*/
+
+
+
+
+.title-element-quiz {
+	text-align: center; 
+	width: 100%; 
+	position: relative;
+	font-weight: bold;
+  font-size: large;
+}
+
+.comment-wrapper-quiz {
+	width: 100%; 
+	display: inline-block;
+}
+
+.comment-element-quiz {
+	width: 99%;
+}
+
+.comment-label-quiz {
+	width: 80%;
+	font-size: large;
+}
+
+
+.question-wrapper-quiz {
+	width: 100%; 
+	display: inline-block;
+}
+
+
+.question-label-quiz {
+	font-size: large;
+	/*width: 80%;*/
+	width: 100%;
+}
+
+.question-select-label-quiz {
+	font-size: large;
+}
+
+
+
+.fieldset-legend {
+	font-weight: normal;
+}
+
+
+@media (orientation: portrait) {
+.wrapper-quiz { display: inline-block; width: 100%; }
+.element-quiz { width: 100%; }
+.label-quiz { width: 100%; text-align: center; }
+
+
+
+
+/*		###########################################################		*/
+.information-wrapper { display: inline-block; width: 100%; }
+.information-element{ width: 100%; }
+.information-label { width: 100%; text-align: center; }
+
+/*		############################################################		*/
+
+
+
+
+}
+
+
+@media (max-width: 394px) and (max-height: 852px) and (orientation: portrait) {
+	.question-label-quiz { font-size: medium; } 
+	.question-select-label-quiz { font-size: medium; }
+	
+	
+	
+	.comment-label-quiz { font-size: medium; }
+	
+	.element-quiz { font-size: medium; }
+	.label-quiz { font-size: medium; }
+	
+} 
+
+@media (max-width: 415px) and (max-height: 897px) and (orientation: portrait) {
+  .question-label-quiz { font-size: medium; } 
+  .question-select-label-quiz { font-size: medium; }
+  .comment-label-quiz { font-size: medium; }
+  
+  .element-quiz { font-size: medium; }
+	.label-quiz { font-size: medium; }
+} 
+
+@media (max-width: 541px) and (max-height: 721px) and (orientation: portrait) {
+  .question-label-quiz { font-size: medium; } 
+  .question-select-label-quiz { font-size: medium; }
+  .comment-label-quiz { font-size: medium; }
+  
+  .element-quiz { font-size: medium; }
+	.label-quiz { font-size: medium; }
+} 
+
+@media (max-width: 601px) and (max-height: 1025px) and (orientation: portrait) {
+  .question-label-quiz { font-size: medium; } 
+  .question-select-label-quiz { font-size: medium; }
+  .comment-label-quiz { font-size: medium; }
+  
+  .element-quiz { font-size: medium; }
+	.label-quiz { font-size: medium; }
+} 
+
+@media (max-width: 769px) and (max-height: 1025px) and (orientation: portrait) {
+  .question-label-quiz { font-size: medium; } 
+  .question-select-label-quiz { font-size: medium; }
+  .comment-label-quiz { font-size: medium; }
+  
+  .element-quiz { font-size: medium; }
+	.label-quiz { font-size: medium; }
+} 
+
+@media (max-width: 821px) and (max-height: 1181px) and (orientation: portrait) {
+  .question-label-quiz { font-size: medium; } 
+  .question-select-label-quiz { font-size: medium; }
+  .comment-label-quiz { font-size: medium; }
+  
+  .element-quiz { font-size: medium; }
+	.label-quiz { font-size: medium; }
+} 
+
+@media (max-width: 913px) and (max-height: 1369px) and (orientation: portrait) {
+  .question-label-quiz { font-size: medium; } 
+  .question-select-label-quiz { font-size: medium; }
+  .comment-label-quiz { font-size: medium; }
+  
+  .element-quiz { font-size: medium; }
+	.label-quiz { font-size: medium; }
+} 
+
+@media (max-width: 801px) and (max-height: 1281px) and (orientation: portrait) {
+  .question-label-quiz { font-size: x-large; line-height: 30px; } 
+  .question-select-label-quiz { font-size: x-large; line-height: 30px; }
+  .comment-label-quiz { font-size: x-large; line-height: 30px; }
+  
+  .element-quiz { font-size: x-large; line-height: 30px; }
+	.label-quiz { font-size: x-large; line-height: 30px; }
+} 
+
+@media (max-width: 281px) and (max-height: 653px) and (orientation: portrait) {
+  .question-label-quiz { font-size: medium; } 
+  .question-select-label-quiz { font-size: medium; } 
+  .comment-label-quiz { font-size: medium; }
+  
+  .element-quiz { font-size: medium; }
+	.label-quiz { font-size: medium; }
+} 
+
+@media (max-width: 413px) and (max-height: 915px) and (orientation: portrait) {
+  .question-label-quiz { font-size: medium; } 
+  .question-select-label-quiz { font-size: medium; } 
+  .comment-label-quiz { font-size: medium; }
+  
+  .element-quiz { font-size: medium; }
+	.label-quiz { font-size: medium; }
+} 
+
+
+@media (max-width: 1025px) and (max-height: 600px) and (orientation: portrait) {
+  .question-label-quiz { font-size: medium; } 
+  .question-select-label-quiz { font-size: medium; } 
+  .comment-label-quiz { font-size: medium; }
+  
+  .element-quiz { font-size: medium; }
+	.label-quiz { font-size: medium; }
+} 
+
+@media (max-width: 1281px) and (max-height: 801px) and (orientation: portrait) {
+  .question-label-quiz { font-size: medium; } 
+  .question-select-label-quiz { font-size: medium; } 
+  .comment-label-quiz { font-size: medium; }
+  
+  .element-quiz { font-size: medium; }
+	.label-quiz { font-size: medium; }
+} 
+
+
+@media (max-width: 321px) and (max-height: 659px) and (orientation: portrait) {
+  .question-label-quiz { font-size: medium; } 
+  .question-select-label-quiz { font-size: medium; } 
+  .comment-label-quiz { font-size: medium; }
+  
+  .element-quiz { font-size: medium; }
+	.label-quiz { font-size: medium; }
+} 
+
+
+
+
+@media (max-width: 361px) and (max-height: 641px) and (orientation: portrait) {
+  .question-label-quiz { font-size: small; line-height: 20px; } 
+  .question-select-label-quiz { font-size: small; line-height: 20px; } 
+  .comment-label-quiz { font-size: small; line-height: 20px; }
+  
+  .element-quiz { font-size: small; line-height: 20px; }
+	.label-quiz { font-size: small; line-height: 20px; }
+} 
+
+@media (max-width: 361px) and (max-height: 741px) and (orientation: portrait) {
+  .question-label-quiz { font-size: small; line-height: 20px; } 
+  .question-select-label-quiz { font-size: small; line-height: 20px; } 
+  .comment-label-quiz { font-size: small; line-height: 20px; }
+  
+  .element-quiz { font-size: small; line-height: 20px; }
+	.label-quiz { font-size: small; line-height: 20px; }
+} 
+
+@media (max-width: 241px) and (max-height: 321px) and (orientation: portrait) {
+	.question-label-quiz { font-size: x-small; line-height: 10px; } 
+	.question-select-label-quiz { font-size: x-small; line-height: 10px; } 
+	.comment-label-quiz { font-size: x-small; line-height: 10px; }
+	
+	.element-quiz { font-size: small; line-height: 20px; }
+	.label-quiz { font-size: small; line-height: 20px; }
+} 
+
+
+/*	#############################		ENCABEZADO	############################################	*/
+
+.container_body_webform {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.container_img_webform {
+	width: 30%;
+	height: 100%;
+	position: relative;
+	margin-top:20px;
+}
+
+.container_writen_webform {
+	width: 70%;
+	height: 100%;
+	position: relative;
+}
+
+@media (orientation: portrait) {
+.container_body_webform {	display: grid;	}
+.container_img_webform { width: 100%; height: 50%;	}
+.container_writen_webform { width: 100%; height: 50%; }
+
+}
+
+
+.header-webfom {
+	width: 100%;
+	height:100%;
+	font-size: large;
+	text-align: justify;
+	margin-bottom: 30px;
+}
+
+.footer_container {
+	width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.label_footer {
+	font-size: small;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

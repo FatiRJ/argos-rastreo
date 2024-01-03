@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+
+.titulo1 {
+	font-family: 'Asap', sans-serif;
+	font-weight: bold;
+	color: #354587;
+	text-align: center;
+	/*font-size:6vw;*/
+	font-size: xx-large;
+	width: 100%;
+	padding-bottom: 3rem;
+	padding-top: 2rem;
+}
